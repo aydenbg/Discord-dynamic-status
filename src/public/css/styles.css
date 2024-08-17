@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #000428, #004e92);
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    position: relative;
+}
+
+.stars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    z-index: 1;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: white;
+    box-shadow: 0 0 6px white;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.discord-profile {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    padding: 25px;
+    width: 350px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    z-index: 2;
+    position: relative;
+}
+
+.discord-profile img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 4px solid rgba(255, 255, 255, 0.2);
+}
+
+.discord-profile h1 {
+    font-size: 24px;
+    margin-top: 15px;
+    color: #f0f0f0;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.discord-profile .status,
+.discord-profile .activity,
+.discord-profile .rich-presence {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #cccccc;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.discord-profile .rich-presence {
+    font-size: 14px;
+    color: #aaaaaa;
+    margin-top: 8px;
+}
+
+.social-links {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 15px;
+    z-index: 3;
+}
+
+.social-links a {
+    color: #ffffff;
+    font-size: 22px;
+    transition: transform 0.2s, color 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+
+.social-links a:hover {
+    transform: scale(1.1);
+    color: #cccccc;
+}
