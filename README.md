@@ -116,20 +116,8 @@ The following were used:
 - **Font Awesome** for the icons.
 - **Discord.js** for providing the tools to interact with Discord.
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ---
 
 Thank you for using the Discord Profile Website! If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
 ```
-
-### How to Use:
-
-1. **Copy the entire text above** (everything from `# Discord Profile Website` to the end).
-2. **Paste it** into a new file called `README.md` in your project directory.
-3. Replace `"your-username"`, `"your-discord-bot-token-here"`, `"your-discord-user-id"`, `"your-discord-server-id"`, `"yourprofile"`, and `"Your Name"` with your actual information.
-4. Save the file.
-
-This should allow you to easily copy everything at once without any issues. If you run into any trouble copying, make sure you're selecting the entire block of text and not missing any lines. Let me know if you need any further assistance!
