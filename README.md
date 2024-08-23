@@ -1,4 +1,3 @@
-Let me provide the `README.md` content as a single, continuous block of text that you can easily copy all at once.
 
 ### Full `README.md` Content:
 
