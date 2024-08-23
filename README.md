@@ -107,7 +107,7 @@ Once your website is up and running, it will automatically update your Discord s
 
 ## Credits
 
-This project was created by **aydenerrm** with assistance from **ChatGPT** by OpenAI.
+This project was created by **aydev** with assistance from **ChatGPT** by OpenAI.
 
 The following were used:
 
