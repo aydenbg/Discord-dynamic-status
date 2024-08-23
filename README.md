@@ -1,5 +1,4 @@
 
-### Full `README.md` Content:
 
 ```markdown
 # Discord Profile Website
